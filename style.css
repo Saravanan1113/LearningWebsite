@@ -1,0 +1,9 @@
+.expandable-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.bg-white:hover .expandable-content {
+  height: 150px;
+}
